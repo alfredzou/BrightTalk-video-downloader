@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BrightTalk-video-downloader", "BrightTalk-video-downloader.pyproj", "{06175E04-F9DD-46AC-9216-C8F07C72B69D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06175E04-F9DD-46AC-9216-C8F07C72B69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06175E04-F9DD-46AC-9216-C8F07C72B69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {844A5991-9D7B-46B1-98DD-8C2C5B2B0251}
+	EndGlobalSection
+EndGlobal
