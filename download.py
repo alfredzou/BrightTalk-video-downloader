@@ -4,6 +4,12 @@ import urllib.parse as parse
 import subprocess
 
 def main():
+    while (download() != 0):
+        pass
+
+    print('All downloads complete.')
+
+def download():
     '''
     Example links
     source: https://www.brighttalk.com/webcast/8657/372236
@@ -54,5 +60,4 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    while (main() != 0):
-        pass
+    main()
