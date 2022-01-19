@@ -113,7 +113,12 @@ def download():
         return
 
     # Remove special characters from output file name to create output path
-    output_mp4 = values["-DLFOLD-"] + "\\" + clean_file_name(values["-MP4-"]) + ".mp4"
+    # Check if OS is Windows
+    if os.name == 'nt':
+        output_mp4 = values["-DLFOLD-"] + "\\" + clean_file_name(values["-MP4-"]) + ".mp4"
+    # Correct output path for macOS and Linux
+    else:
+        output_mp4 = values["-DLFOLD-"] + "/" + clean_file_name(values["-MP4-"]) + ".mp4"
 
     # ffmpeg downloads and concats all associated stream files into a .mp4 file
     sg.popup_auto_close("Please be patient while video file downloads")
